@@ -24,6 +24,9 @@ npx hardhat help
 // npm install --save-dev solidity-coverage
 // npm install --save-dev @nomiclabs/hardhat-web3 web3
 // npm install --save-dev @nomiclabs/hardhat-etherscan
+// npm install --save-dev @uniswap/sdk
+// npm install --save-dev @uniswap/v3-sdk
+
 // npm install dotenv
 
 
@@ -34,6 +37,7 @@ npx hardhat help
 // npx hardhat coverage --solcoverjs ./test/*.js  
 // npx hardhat run scripts\deploy-script.js --network localhost      
 // npx hardhat run scripts\deploy-script.js --network rinkeby
+// npx hardhat run scripts\uniswap-script.js
 
 // npx hardhat verify 0xe58A3C526a8aD0635Eb809424011D0225211F591
 // npx hardhat balance --account 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
